@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  color: white; /* Ensure text is readable on a black background */
+  font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+h1, h2 {
+  color: white;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+input {
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  color: white;
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px; /* Adjust the spacing between text and button */
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+button.complete {
+  background-color: green;
+  position:relative;
+  right: 1200px;
+}
+
+button.complete:hover {
+  background-color: darkgreen;
+}
